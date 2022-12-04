@@ -1,10 +1,13 @@
 <template>
-  <q-spinner-gears color="primary" :size="size" />
+  <q-img
+    src="../../assets/images/logo.png"
+    :style="`height: ${size}; width: ${size}`"
+  />
 </template>
 
 <script>
 export default {
-  name: "DmSpinner",
+  name: "DmLogo",
   props: {
     size: String,
   },
